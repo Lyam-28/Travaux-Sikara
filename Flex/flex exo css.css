@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-transform: none;
+}
+
+.haut{
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.p1{
+    background-color: lightblue;
+    flex-direction: row;
+}
+
+.p2{
+    background-color: lightblue;
+}
+
+.p3{
+    background-color: lightblue;
+}
+
+.bas{
+    background-color: lightgreen;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+nav{
+    border: 1px solid black;
+    background-color: red;
+}
