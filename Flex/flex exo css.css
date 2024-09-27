@@ -11,40 +11,66 @@ body{
 
 h2{
     text-transform: none;
+    margin: 0;
 }
 
-.haut{
+.Header{
     background-color: red;
     text-align: center;
     text-transform: uppercase;
 }
 
-
-.p1{
-    background-color: lightblue;
+.main{
+    display: flex;
     flex-direction: row;
+    height: 80vh;
 }
 
-.p2{
+#left{
+    background-color: rgb(210, 32, 255);
+    display: flex;
+    flex-direction: row;
+   flex-grow: 1;
+
+}
+
+.txt{
     background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
 }
 
-.p3{
-    background-color: lightblue;
+#right{
+    background-color: rgb(210, 32, 255);
+    display: flex;
+    flex-direction: row;
+   flex-grow: 1;
 }
 
-.bas{
+.footer{
     background-color: lightgreen;
+    text-align: center;
+    text-transform: uppercase;
+    flex-grow: 1;
 }
 
 
 ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;                                                                                        
     justify-content: space-between;  
+    list-style-type: none;
+    margin: 0;
+}
+
+li{
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: center;
 }
 
 nav{
-    border: 1px solid black;
     background-color: red;
+    width: 100%;
 }
