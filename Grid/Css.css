@@ -3,13 +3,14 @@
    margin: 0;
     padding: 0;
 }
+/*Placement du container au milieu de la page*/
 body{
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 .container{
-    border: 10px solid black;
+    border: 5px solid black;
     padding: 0;
     margin-top: 60px;
     width: 75%;
@@ -17,9 +18,7 @@ body{
 }
 
 
-.bleu1,  .bleu2,  .bleu3,  .bleu4 {
-    background-color: blue;
-}
+/*Initialisation des blocs de couleurs*/
 .bleu1 {
     grid-area: b1;
 }
@@ -33,11 +32,6 @@ body{
     grid-area: b4;
 }
 
-
-
-.jaune1, .jaune2, .jaune3, .jaune4, .jaune5 {
-    background-color: yellow;
-}
 .jaune1 {
     grid-area: j1;
 }
@@ -54,11 +48,6 @@ body{
     grid-area: j5;
 }
 
-
-
-.rouge1, .rouge2, .rouge3, .rouge4, .rouge5 {
-    background-color: red;
-}
 .rouge1 {
     grid-area: r1;
 }
@@ -75,11 +64,6 @@ body{
     grid-area: r5;
 }
 
-
-
-.blanc1, .blanc2, .blanc3, .blanc4, .blanc5, .blanc6, .blanc7, .blanc8, .blanc9, .blanc10, .blanc11, .blanc12, .blanc13, .blanc14, .blanc15, .blanc16{
-    background-color: white;
-}
 .blanc1 {
     grid-area: w1;
 }
@@ -129,30 +113,27 @@ body{
     grid-area: w16;
 }
 
-
-.noir1 {
-    grid-area: n1;
+/*Initialisation des couleurs de chaque élément*/
+.bleu1,  .bleu2,  .bleu3,  .bleu4 {
+    background-color: blue;
 }
-.noir2 {
-    grid-area: n2;
+.jaune1, .jaune2, .jaune3, .jaune4, .jaune5 {
+    background-color: yellow;
 }
-.noir3 {
-    grid-area: n3;
+.rouge1, .rouge2, .rouge3, .rouge4, .rouge5 {
+    background-color: red;
 }
-.noir4 {
-    grid-area: n4;
+.blanc1, .blanc2, .blanc3, .blanc4, .blanc5, .blanc6, .blanc7, .blanc8, .blanc9, .blanc10, .blanc11, .blanc12, .blanc13, .blanc14, .blanc15, .blanc16{
+    background-color: white;
 }
 
-
-
-
-
+/*Création des lignes et des colonnes */
 .grid-container{
     display: grid;
     gap: 5px;
     grid-template-areas: 'w1 w2 w2 w2 w2 w2 w2 w3 w3 w3 w3 w3 w3 w4 j1 '
+                        'w1 b1 b1 b1 b1 b1 b1 w5 w5 b2 b2 b2 b2 w4 j1 '
                          'w1 b1 b1 b1 b1 b1 b1 w5 w5 b2 b2 b2 b2 w4 j1 '
-                          'w1 b1 b1 b1 b1 b1 b1 w5 w5 b2 b2 b2 b2 w4 j1 '
                           '. w6 w6 . w7 w7 w8 j2  j2 r1  r1 r1 r2 w4 j1 '
                           '. w6 w6 . w7 w7 w8 j2  j2 r1  r1 r1 r2 w4 j1 '
                           '. w6 w6 . w7 w7 w8 j2  j2 r1  r1 r1 r2 w4 j1 '
