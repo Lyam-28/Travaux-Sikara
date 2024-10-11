@@ -1,0 +1,28 @@
+
+h2{
+    text-align: center;
+}
+
+#ckaré div{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    background-color: red;
+    animation-name: karé;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate3d(30deg);
+}
+
+@keyframes karé{
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
