@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+.container{
+    box-sizing: border-box;
+    border: solid blue;
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 100px;
+    
+    
+}
+
+.balle{
+    position: absolute;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

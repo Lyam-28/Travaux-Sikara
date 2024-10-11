@@ -2,9 +2,7 @@
 h2{
     text-align: center;
 }
-#karé{
-    transition: transform rotate(360deg) 1s, background-color 2s;
-}
+
 
 .ckaré {
     width: 60px;
@@ -12,15 +10,16 @@ h2{
     margin: 20px auto;
     background-color: red;
     animation-name: karé;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    transform: rotate(360deg);
 }
 
 @keyframes karé{
+    
     0% {
         background-color: red;
+        rotate: 360deg;
     }
     50% {
         background-color: green;
