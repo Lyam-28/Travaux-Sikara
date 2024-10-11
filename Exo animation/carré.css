@@ -2,17 +2,20 @@
 h2{
     text-align: center;
 }
+#karé{
+    transition: transform rotate(360deg) 1s, background-color 2s;
+}
 
-#ckaré div{
+.ckaré {
     width: 60px;
     height: 60px;
     margin: 20px auto;
     background-color: red;
     animation-name: karé;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    transform: rotate3d(30deg);
+    transform: rotate(360deg);
 }
 
 @keyframes karé{
