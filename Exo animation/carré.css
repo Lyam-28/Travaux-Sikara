@@ -10,7 +10,7 @@ h2{
     margin: 20px auto;
     background-color: red;
     animation-name: karé;
-    animation-duration: 1ms;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }

@@ -1,16 +1,14 @@
 body{
-    justify-content: center;
     display: flex;
+    flex-direction: column;
+    margin-left: 600px;
 }
 .container{
     box-sizing: border-box;
     border: solid blue;
-    margin: 0;
-    padding: 0;
+    margin-left: 150px;
     width: 35px;
-    height: 100px;
-    
-    
+    height: 300px;
 }
 
 .balle{
@@ -20,8 +18,12 @@ body{
     height: 30px;
     border-radius: 50%;
     animation-name: boule;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
 }
 
 @keyframes boule{
-    
+    0% {top: 100px; bottom: 0px;}
+    25% {}
 }
