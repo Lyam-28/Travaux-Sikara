@@ -18,7 +18,7 @@ body{
     height: 30px;
     border-radius: 50%;
     animation-name: boule;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -31,6 +31,7 @@ body{
     30% {bottom: 500px;}
     45% {bottom: 335px;}
     65% {bottom: 450px;}
-    80% {bottom: 450px;}
+    80% {bottom: 335px;}
+    90%{bottom: 350px;}
     100%{bottom: 335px;}
 }
