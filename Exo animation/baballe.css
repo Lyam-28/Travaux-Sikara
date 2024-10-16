@@ -1,16 +1,20 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin-left: 600px;
-}
 .container{
     box-sizing: border-box;
     border: solid blue;
-    margin-left: 150px;
     width: 35px;
     height: 300px;
+    margin: 0px auto;
 }
-
+#cp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+}
 .balle{
     position: absolute;
     background-color: blue;

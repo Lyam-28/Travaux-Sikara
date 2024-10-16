@@ -1,9 +1,3 @@
-
-h2{
-    text-align: center;
-}
-
-
 .ckaré {
     width: 60px;
     height: 60px;
@@ -14,6 +8,16 @@ h2{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
+}
+#cp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
 }
 
 @keyframes karé{
