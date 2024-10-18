@@ -31,6 +31,7 @@ a{
 
 .load:nth-child(1) {
     animation-delay: 1s;
+    margin-bottom: 3px;
 }
 
 .load:nth-child(2) {
