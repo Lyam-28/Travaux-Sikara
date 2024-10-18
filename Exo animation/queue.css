@@ -1,23 +1,39 @@
-.truc1{
-    width: 100px;
-  height: 100px;
+#cp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  margin: 20px auto;
+  height: 400px;
+  width: 600px;
+  border: solid black 5px;
+}
+.karé{
+    width: 30px;
+    height: 6px;
   position: relative;
-  background-color: black;
-  animation-name: truc1;
+  background-color: blueviolet;
+  animation-name: race;
 }
 
 
 
+/*15 45 15 25*/
+@keyframes race {
+    0%   {background-color:blueviolet; right:0px; top:0px;}
 
-@keyframes truc1 truc2 truc3 truc4 {
-    0%   {background-color:red; left:0px; top:0px;}
+    15%  {background-color:yellow; left:200px; top:0px;}
 
-    25%  {background-color:yellow; left:200px; top:0px;}
-
-    50%  {background-color:blue; left:200px; top:200px;}
+    60%  {background-color:blue; left:200px; top:200px;}
 
     75%  {background-color:green; left:0px; top:200px;}
 
     100% {background-color:red; left:0px; top:0px;}
-    
   }
