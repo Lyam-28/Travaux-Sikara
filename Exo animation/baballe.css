@@ -3,7 +3,7 @@
     border: solid blue;
     width: 35px;
     height: 300px;
-    margin: 0px auto;
+    margin: 100px auto;
 }
 #cp{
     display: flex;
@@ -18,6 +18,7 @@ a{
 .balle{
     position: absolute;
     background-color: blue;
+
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -28,14 +29,14 @@ a{
 }
 
 
-/*Changer le pourcentage, + rapproché = plus rapide*/
+/*Chaque pourcentage correspond à une phase de l'animation, plus les pourcentages sont rapprochés plus la phase de l'animation est rapide*/
 @keyframes boule{
-    0% {bottom: 600px;}
-    15% {bottom: 335px;}
-    30% {bottom: 500px;}
-    45% {bottom: 335px;}
-    65% {bottom: 450px;}
-    80% {bottom: 335px;}
-    90%{bottom: 350px;}
-    100%{bottom: 335px;}
+    0% {bottom: 500px;}
+    15% {bottom: 235px;}
+    30% {bottom: 400px;}
+    45% {bottom: 235px;}
+    65% {bottom: 350px;}
+    80% {bottom: 235px;}
+    90%{bottom: 250px;}
+    100%{bottom: 235px;}
 }
