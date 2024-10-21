@@ -9,16 +9,19 @@ a{
   text-decoration: none;
 }
 
+
 .container{
   margin: 20px auto;
   height: 400px;
   width: 600px;
   border: solid black 5px;
+  display: flex;
+  flex-direction: row;
 }
-.karé{
+.kare{
     width: 30px;
     height: 6px;
-  position: relative;
+  position: absolute;
   background-color: blueviolet;
   animation-name: race;
   animation-duration: 10s;
@@ -27,23 +30,19 @@ a{
   animation-delay: 1s;
 }
 
-.karé:nth-child(1){
+.kare:nth-child(1){
   animation-delay: 2s;
-  margin-left: 3px;
 }
-.karé:nth-child(2){
-  animation-delay: 2s;
-  margin-right: 3px;
+.kare:nth-child(2){
+  animation-delay: 3s;
 }
-.karé:nth-child(3){
-  animation-delay: 2s;
-  margin-top: 3px;
+.kare:nth-child(3){
+  animation-delay: 4s;
 }
-.karé:nth-child(4){
-  animation-delay: 2s;
-  margin-top: 8px;
+.kare:nth-child(4){
+  animation-delay: 5s;
 }
-
+/*geometry dash*/
 
 @keyframes race {
     0%   {background-color: blueviolet; left: 0px; top: 0px;}
