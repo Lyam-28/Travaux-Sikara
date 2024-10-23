@@ -17,46 +17,59 @@ a{
   border: solid black 5px;
   display: flex;
   flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.kare{
+.kare{    
   width: 30px;
   height: 30px;
+  border-radius: 30%;
   transform: rotate(90deg);
   text-align: center;
     font-size: 25px;
-    font-weight: bold;
     line-height: 30px;
   position: absolute;
   background-color: blueviolet;
   animation-name: race;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
 }
 
 .kare:nth-child(1){
-  animation-delay: 1800ms;
+  animation-delay: 800ms;
 }
 .kare:nth-child(2){
-  animation-delay: 2600ms;
+  animation-delay: 1600ms;
 }
 .kare:nth-child(3){
-  animation-delay: 3400ms;
+  animation-delay: 2400ms;
 }
+
+
 .kare:nth-child(4){
-  animation-delay: 4200ms;
+  animation-delay: 3200ms;
+  font-size: initial;
+  line-height: normal;
+  font-size: 10px;
+  line-height: 10px;
 }
-/*geometry dash*/
 
 @keyframes race {
-    0%   {background-color: blueviolet; left: 460px; top: 100px;}
+    0%   {background-color: blueviolet; left: 460px; top: 105px; rotate: 1000deg;}
 
-    10%   {background-color:yellow; left:1033px; top: 100px;}
+    25%   {background-color:yellow; left:1028px; top: 105px;}
 
-    50%  {background-color:blue; left: 1033px; top: 470px;}
+    70%  {background-color:blue; left: 1028px; top: 465px;}
 
-    60%  {background-color:green; left: 465px; top: 470px;}
+    80%  {background-color:green; left: 470px; top: 465px;}
 
-    100% {background-color:black; left: 465px; top: 100px;}
+    100% {background-color:black; left: 470px; top: 105px;}
+  }
+  
+  img{
+    width: 900px;
+    height: 500px;
+  transform: rotate(270deg);
+    z-index: -1;
   }
