@@ -79,6 +79,7 @@ a{
     gap: 5px;
 }
 
+/*delay pour les faire clignoter chacun leur tour*/
 .load{
     width: 100px;
     height: 100px;
@@ -86,7 +87,6 @@ a{
     border-radius:50%;
     animation-name: loader;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-delay: 3s;
@@ -110,6 +110,7 @@ a{
 }
 /*Finalisation du chargement*/
  
+/*Overflow hidden pour pas que l'image dépasse le container*/
   .container2{
     margin: 20px auto;
     height: 400px;
