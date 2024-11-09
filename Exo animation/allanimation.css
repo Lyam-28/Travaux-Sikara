@@ -6,6 +6,10 @@
     justify-content: center;
     gap: 5px;
 }
+body{
+  display: flex;
+  flex-direction: column;
+}
 a{
     text-decoration: none;
 }
@@ -181,12 +185,30 @@ a{
     height: 300px;
 }
 /*Définition d'un petit rectangle englobant menu, border-radius pour rendre les bord légèrement arrondis
-et transition pour élargir  la barre pendant 3 secondes*/
+et transition pour élargir  la barre pendant 2 secondes*/
 #m{
     color: blanchedalmond;
     width: 60px;
     height: 40px;
+    left: 5px;
     background-color: black;
     border-radius: 5px;
     transition: height 2s;
+    position: absolute;
+    
+}
+.carreP{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.car{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+#Mn{
+  width: 5%;
 }
