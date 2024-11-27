@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.zone {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red { 
+    background-color: red; color: white; 
+}
+.blue {
+     background-color: blue; color: white;
+     }
+.yellow {
+     background-color: yellow; color: black; 
+    }
+.green { 
+    background-color: green; color: white; 
+}
+
+.black {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.choices span {
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}

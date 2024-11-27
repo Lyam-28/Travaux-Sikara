@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="Js.js">
     <title>Chifoumi</title>
 </head>
+
 <body>
-    
+    <h1>Chifoumi</h1>
+
+    <div class="container">
+        <!-- Zone de choix du joueur -->
+        <div class="zone red choices">
+            <h3>Faites votre choix</h3>
+            <span id="rock">Pierre</span>
+            <span id="paper">Feuille</span>
+            <span id="scissors">Ciseau</span>
+        </div>
+
+        <!-- Zone du joueur -->
+        <div class="zone yellow" id="playerChoiceZone">
+            <h3>Votre choix :</h3>
+            <img id="Img" src="" alt="choix utilisateur">
+        </div>
+
+        <!-- Zone de l'ordinateur -->
+        <div class="zone green" id="computerChoiceZone">
+            <h3>Choix de l'ordinateur :</h3>
+            <img id="Imgbot" src="" alt="Choix du bot">
+        </div>
+    </div>
+
+    <!-- Zone de score -->
+    <div class="zone blue">
+        <h3>Score</h3>
+        <p>Joueur : <span id="playerScore">0</span></p>
+        <p>Ordinateur : <span id="computerScore">0</span></p>
+    </div>
+
+    <!-- Bouton reset -->
+    <div class="black" id="reset">Reset</div>
+    <script src="Js.js"></script>
 </body>
 </html>
